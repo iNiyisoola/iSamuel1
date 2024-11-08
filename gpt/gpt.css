@@ -1,0 +1,179 @@
+body {
+  font-family: ui-sans-serif, -apple-system, system-ui, Segoe UI, Helvetica, Apple Color Emoji, Arial, sans-serif, Segoe UI Emoji, Segoe UI Symbol;
+}
+
+.upper {
+display: flex;
+gap: 855px;
+margin-top: 15px;
+margin-left: 5px;
+margin-bottom: 100px;
+}
+
+.left {
+  display: flex;
+}
+
+.new-button {
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 2px;
+}
+
+.new-button:hover {
+  background-color: whitesmoke;
+}
+
+.mini {
+  background-color: white;
+  width: 150px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  color: rgb(74, 74, 74);
+  font-size: 18px;
+  font-weight: 600;
+  font-family: ui-sans-serif, -apple-system, system-ui, Segoe UI, Helvetica, Apple Color Emoji, Arial, sans-serif, Segoe UI Emoji, Segoe UI Symbol;
+}
+
+.mini:hover {
+  background-color: whitesmoke;
+}
+
+.login-button {
+  background-color: black;
+  color: white;
+  width: 70px;
+  height: 30px;
+  border: none;
+  border-radius: 15px;
+  margin-right: 5px;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: ui-sans-serif, -apple-system, system-ui, Segoe UI, Helvetica, Apple Color Emoji, Arial, sans-serif, Segoe UI Emoji, Segoe UI Symbol;
+}
+
+.create-button {
+  background-color: white;
+  width: 120px;
+  height: 30px;
+  border: 1px solid gray;
+  border-radius: 15px;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: ui-sans-serif, -apple-system, system-ui, Segoe UI, Helvetica, Apple Color Emoji, Arial, sans-serif, Segoe UI Emoji, Segoe UI Symbol;
+}
+
+h1 {
+  margin-top: 200px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 26px;
+  font-family: ui-sans-serif, -apple-system, system-ui, Segoe UI, Helvetica, Apple Color Emoji, Arial, sans-serif, Segoe UI Emoji, Segoe UI Symbol;
+}
+
+.input {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  position: relative;
+  width: 750px;
+  height: 52px;
+  border-radius: 30px;
+  border:none;
+  background-color: whitesmoke;
+  padding-left: 20px;
+  font-family: ui-sans-serif, -apple-system, system-ui, Segoe UI, Helvetica, Apple Color Emoji, Arial, sans-serif, Segoe UI Emoji, Segoe UI Symbol;
+  font-size: 16px;
+}
+
+.input-button {
+  position: absolute;
+  top: 6px;
+  right: 20%;
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  margin-right: 8px;
+  background-color: rgba(225, 225, 225, 0.945);
+}
+
+.buttons {
+  margin-top: 28px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.summarise-button {
+  width: 142px;
+  height: 42px;
+  margin-right: 11px;
+  border-radius: 21px;
+  border: 1px solid rgb(212, 212, 212);
+  color: rgb(77, 77, 77);
+  font-size: 14px;
+  font-family: ui-sans-serif, -apple-system, system-ui, Segoe UI, Helvetica, Apple Color Emoji, Arial, sans-serif, Segoe UI Emoji, Segoe UI Symbol;
+}
+
+.brainstorm-button {
+  width: 114px;
+  height: 42px;
+  border-radius: 21px;
+  border: 1px solid rgb(212, 212, 212);
+  color: rgb(77, 77, 77);
+  font-size: 14px;
+  font-family: ui-sans-serif, -apple-system, system-ui, Segoe UI, Helvetica, Apple Color Emoji, Arial, sans-serif, Segoe UI Emoji, Segoe UI Symbol;
+}
+
+.plan-button {
+  width: 120px;
+  height: 42px;
+  margin-left: 11px;
+  border-radius: 21px;
+  border: 1px solid rgb(212, 212, 212);
+  color: rgb(77, 77, 77);
+  font-size: 14px;
+  font-family: ui-sans-serif, -apple-system, system-ui, Segoe UI, Helvetica, Apple Color Emoji, Arial, sans-serif, Segoe UI Emoji, Segoe UI Symbol;
+}
+
+.surprise-button {
+  width: 120px;
+  height: 42px;
+  margin-left: 11px;
+  border-radius: 21px;
+  border: 1px solid rgb(212, 212, 212);
+  color: rgb(77, 77, 77);
+  font-size: 14px;
+  font-family: ui-sans-serif, -apple-system, system-ui, Segoe UI, Helvetica, Apple Color Emoji, Arial, sans-serif, Segoe UI Emoji, Segoe UI Symbol;
+}
+
+.help-button {
+  width: 132px;
+  height: 42px;
+  margin-left: 11px;
+  border-radius: 21px;
+  border: 1px solid rgb(212, 212, 212);
+  color: rgb(77, 77, 77);
+  font-size: 14px;
+  font-family: ui-sans-serif, -apple-system, system-ui, Segoe UI, Helvetica, Apple Color Emoji, Arial, sans-serif, Segoe UI Emoji, Segoe UI Symbol;
+}
+
+.more-button {
+  width: 60px;
+  height: 42px;
+  margin-left: 11px;
+  border-radius: 21px;
+  border: 1px solid rgb(212, 212, 212);
+  color: rgb(77, 77, 77);
+  font-size: 14px;
+  font-family: ui-sans-serif, -apple-system, system-ui, Segoe UI, Helvetica, Apple Color Emoji, Arial, sans-serif, Segoe UI Emoji, Segoe UI Symbol;
+}
